@@ -2,13 +2,13 @@
 body{
     text-align: center;
 }
-.backgruondGray {
+.backgruond-Gray {
     background-color: #eff1f2;
 }
-.backgruondWhite {
+.backgruond-White {
     background-color: #ffffff;
 }
-.backgruondBlack {
+.backgruond-Black {
     background-color: #25282A;
 }
 .font-title {
@@ -22,6 +22,15 @@ body{
 .font-description {
     font-family: 'PT Mono', monospace;
     font-size: 14px;
+    opacity: 0.7;
+    line-height: 20px;
+}
+.button {
+    color: #ffffff;
+    height: 52px;
+    background-color: #0059D9;
+    border-radius: 4px;
+    border: none;
 }
 .container {
     max-width: 700px;
@@ -48,19 +57,11 @@ body{
 }
 .user__description{
     margin: 20px auto;
-    opacity: 0.7;
     color: #000000;
     line-height: 20px;
 }
 .user__button {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    color: #ffffff;
-    height: 52px;
     width: 280px;
-    background-color: #0059D9;
-    border-radius: 4px;
-    border: none;
 }
 .abilitys {
     background-color: #ffffff;
@@ -71,23 +72,18 @@ body{
 .abilitys__title {
     text-align: left;
 }
-.abilitys__skill_title {
+.abilitys__skill-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     color: #0059D9;
 }
 .abilitys__description {
-    opacity: 0.7;
     margin: 20px 0;
 }
 hr {
     border-style: solid;
     border-color: #D2D9E2;
     margin: 20px auto;
-}
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
 }
 .works {
     background: #25282A;
@@ -104,9 +100,6 @@ h3 {
 .projects__title {
     margin: 5px;
 }
-.projects__url {
-
-}
 .projects__image {
     margin: 20px 0;
     max-width: 700px;
@@ -116,4 +109,43 @@ h3 {
 .projects__description {
     max-width: 520px;
     text-align: left;
+}
+.contats {
+    padding: 100px 0;
+}
+.contats__social {
+    margin: 20px 0;
+}
+.contats__description {
+    margin-bottom: 20px;
+}
+.contats__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.field {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+}
+.form__small {
+    width: 314px;
+    height: 15px;
+    
+}
+.form__big {
+    width: 700px;
+    height: 115px;
+    margin: 20px 0 0 0;
+}
+.form__button {
+    width: 700px;
+}
+.form__button__small {
+    margin: 20px 0;
+    background: transparent;
+    height: 36px;
+    border: 1px solid #dadfe4;
+    border-radius: 4px;
 }
