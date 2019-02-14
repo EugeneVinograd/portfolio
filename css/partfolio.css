@@ -11,6 +11,18 @@ body{
 .backgruondBlack {
     background-color: #25282A;
 }
+.font-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+.font-title-middle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.font-description {
+    font-family: 'PT Mono', monospace;
+    font-size: 14px;
+}
 .container {
     max-width: 700px;
     margin: auto;
@@ -37,14 +49,12 @@ body{
 .user__description{
     margin: 20px auto;
     opacity: 0.7;
-    font-family: 'PT Mono', monospace;
-    font-size: 14px;
     color: #000000;
     line-height: 20px;
 }
 .user__button {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color: #ffffff;
     height: 52px;
     width: 280px;
@@ -67,8 +77,6 @@ body{
     color: #0059D9;
 }
 .abilitys__description {
-    font-family: 'PT Mono', monospace;
-    font-size: 14px;
     opacity: 0.7;
     margin: 20px 0;
 }
@@ -76,10 +84,6 @@ hr {
     border-style: solid;
     border-color: #D2D9E2;
     margin: 20px auto;
-}
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32px;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -91,8 +95,6 @@ h3 {
     padding: 100px 0px;
 }
 .title__description {
-    font-family: 'PT Mono', monospace;
-    font-size: 14px;
     margin: 20px auto;
 }
 .works__projects {
@@ -103,10 +105,15 @@ h3 {
     margin: 5px;
 }
 .projects__url {
-    margin-bottom: 30px;
+
 }
 .projects__image {
+    margin: 20px 0;
     max-width: 700px;
     max-height: 400px;
     border-radius: 10px;
+}
+.projects__description {
+    max-width: 520px;
+    text-align: left;
 }
