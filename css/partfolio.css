@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: Montserrat; /* Гарнитура шрифта */
+    src: url(./fonts/Montserrat-ExtraBold.ttf); /* Путь к файлу со шрифтом */
+}
 body{
     text-align: center;
 }
