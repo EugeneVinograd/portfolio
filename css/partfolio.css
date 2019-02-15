@@ -24,6 +24,11 @@ body{
     opacity: 0.7;
     line-height: 20px;
 }
+.hr {
+    border-style: solid;
+    border-color: #D2D9E2;
+    margin: 20px auto;
+}
 .button {
     color: #ffffff;
     height: 52px;
@@ -42,6 +47,7 @@ body{
     margin: auto;
     padding: 0 5px;
 }
+
 .user {
     height: auto;
     text-align: center;
@@ -93,11 +99,6 @@ body{
 .abilitys__description {
     margin: 20px 0;
 }
-.hr {
-    border-style: solid;
-    border-color: #D2D9E2;
-    margin: 20px auto;
-}
 .works {
     background: #25282A;
     color: #ffffff;
@@ -115,6 +116,12 @@ body{
 }
 .projects__url {
     color: #0059D9;
+}
+.projects__url:hover {
+    color: #ffffff;
+}
+.projects__url:active {
+    opacity: 0.7;
 }
 .projects__image {
     margin: 20px 0;
