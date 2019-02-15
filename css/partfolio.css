@@ -31,6 +31,21 @@ body{
     border-radius: 4px;
     border: none;
 }
+.button:hover {
+    background-color: #000000;
+}
+.button:active {
+    opacity: 0.7;
+}
+.a {
+    color: #0059D9;
+}
+.a:hover {
+    color: #ffffff
+}
+.a:visited {
+    opacity: 0.7;
+}
 .container {
     max-width: 700px;
     margin: auto;
