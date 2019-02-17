@@ -174,7 +174,13 @@ body{
 .field {
     padding: 8px;
     border-radius: 4px;
-    border: none;
+    border: 1px solid #d2d9e2;
+    opacity: 0.7;
+}
+.field:focus{
+    border: 1px solid #0059D9;
+    opacity: 1;
+    color: #000000;
 }
 .form__small {
     width: 314px;
@@ -208,5 +214,8 @@ body{
     }
     .button:hover {
         background-color: #0059D9;
+    }
+    .projects__url:hover {
+        color: #0059D9;
     }
 }
