@@ -204,6 +204,14 @@ body{
     border-radius: 4px;
     color: #0059D9;
 }
+.form__button__small:hover {
+    color: #000000;
+    opacity: 1;
+}
+.form__button__small:active {
+    color: #0059D9;
+    opacity: 0.7;
+}
 @media (max-width: 1200px) {
     .form__small {
         width: 100%;
